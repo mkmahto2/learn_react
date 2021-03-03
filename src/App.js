@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
 
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
+import Footer from "./components/Footer"
+import App1 from "./components/App1"
+import Good from "./components/Good"
+import TodoItem from "./components/TodoItem"
+import Todo from "./Todo"
+import ContactCard from "./components/ContactCard"
+import AppContactCard from "./components/AppContactCard"
+import AppJoke from "./components/AppJoke"
+import Joke from "./components/Joke"
+import MapApp from "./components/MapApp"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            
+            <Good />
+            <App1 / >
+            <Footer />
+            <Todo />
+            
+            <AppContactCard />
+            <AppJoke />
+            <MapApp />
+
+        </div>
+        
+    )
 }
 
-export default App;
+export default App
