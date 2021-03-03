@@ -1,3 +1,5 @@
+//Data are transfer from jokesData , Mapping the data as jokesData to jokeComponts
+
 const jokesData = [
     {
         id: 1,

@@ -12,6 +12,7 @@ import AppContactCard from "./components/AppContactCard"
 import AppJoke from "./components/AppJoke"
 import Joke from "./components/Joke"
 import MapApp from "./components/MapApp"
+import AppMapProduct from "./AppMapProduct"
 function App() {
     return (
         <div>
@@ -26,7 +27,7 @@ function App() {
             <AppContactCard />
             <AppJoke />
             <MapApp />
-
+<AppMapProduct />
         </div>
         
     )
