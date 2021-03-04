@@ -5,14 +5,14 @@ import MainContent from "./components/MainContent"
 import Footer from "./components/Footer"
 import App1 from "./components/App1"
 import Good from "./components/Good"
-import TodoItem from "./components/TodoItem"
-import Todo from "./Todo"
-import ContactCard from "./components/ContactCard"
-import AppContactCard from "./components/AppContactCard"
-import AppJoke from "./components/AppJoke"
-import Joke from "./components/Joke"
-import MapApp from "./components/MapApp"
-import AppMapProduct from "./AppMapProduct"
+import ToApp from "./ToApp"
+import AppClass from "./components/AppClass"
+import StateApp from "./components/State/StateApp"
+import StatePr1App from "./components/StatePr1/StatePr1App"
+
+
+
+
 function App() {
     return (
         <div>
@@ -21,13 +21,13 @@ function App() {
             
             <Good />
             <App1 / >
+            <ToApp />
             <Footer />
-            <Todo />
             
-            <AppContactCard />
-            <AppJoke />
-            <MapApp />
-<AppMapProduct />
+<AppClass />
+
+<StateApp />
+<StatePr1App />
         </div>
         
     )
