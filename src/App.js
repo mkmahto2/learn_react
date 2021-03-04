@@ -11,6 +11,7 @@ import StateApp from "./components/State/StateApp"
 import StatePr1App from "./components/StatePr1/StatePr1App"
 import StatePr2App from "./components/StatePr2/StatePr2App"
 import Todo from "./components/TodoPhase4App/Todo"
+import EventApp from "./components/Event/EventApp"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 <StatePr1App />
 <StatePr2App />
 <Todo />
+<EventApp />
         </div>
         
     )
