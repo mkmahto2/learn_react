@@ -9,6 +9,7 @@ import ToApp from "./ToApp"
 import AppClass from "./components/AppClass"
 import StateApp from "./components/State/StateApp"
 import StatePr1App from "./components/StatePr1/StatePr1App"
+import StatePr2App from "./components/StatePr2/StatePr2App"
 
 
 
@@ -28,6 +29,7 @@ function App() {
 
 <StateApp />
 <StatePr1App />
+<StatePr2App />
         </div>
         
     )
